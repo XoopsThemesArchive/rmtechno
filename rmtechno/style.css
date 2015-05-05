@@ -1,0 +1,177 @@
+body {
+	color: #FFFFFF; 
+	background: url(images/body_bg.jpg) repeat;  
+	margin: 0px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.tdupleft{
+	width: 242px;
+	height: 27px;
+}
+.tdupright{
+	width: 235px;
+	height: 27px;
+}
+.tdupcenter{
+	height: 27px;
+	background: url(images/bg_up.jpg) repeat;
+}
+.tdlogoup{ background: url(images/bg_uc_mid.jpg) repeat; }
+.tdlogodown{ background: url(images/bg_uc_mid1.jpg) repeat; }
+td.left { width: 159px; vertical-align: top;}
+td.blockbot{
+	height: 20px;
+	background: url(images/block_bg_bot.jpg) repeat;
+}
+td.blockleft{
+	width: 17px;
+	background: url(images/block_bg_l.jpg) repeat;
+}
+td.blockright{
+	width: 19px;
+	background: url(images/block_bg_r.jpg) repeat;
+}
+td.blockdt{
+	height: 11px;
+	background: url(images/block_dt_c.jpg) repeat;
+}
+td.blockcontent{
+	background-color:#333333;
+	color: #CCCCCC;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+}
+td.block_tleft{
+	background: url(images/block_ml_bg.jpg) repeat;
+	width: 17px;
+}
+td.block_tright{
+	background: url(images/block_mr_bg.jpg) repeat;
+	width: 19px;
+}
+td.blocktitle{
+	height: 20px;
+	background-color: #666666;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+	padding: 2px;
+}
+td.blocktop{
+	height: 8px;
+	background: url(images/block_t_c.jpg) repeat;
+}
+.content{
+	padding: 12px;
+	vertical-align: top;
+}
+td.bkcenter_top{
+	background: url(images/bkcenter_tc.jpg) repeat;
+	height: 21px;
+}
+td.bkcenter_left{
+	background: url(images/bkcenter_ml.jpg) repeat;
+	width: 23px;
+}
+td.bkcenter_center{
+	background-color: #333333;
+	padding: 0px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	text-align: left;
+}
+td.bkcenter_right{
+	background: url(images/bkcenter_mr.jpg) repeat;
+	width: 31px;
+}
+td.bkcenter_bot{
+	background: url(images/bkcenter_bc.jpg) repeat;
+	height: 23px;
+}
+.bkcenter_title{
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+td.bottomleft{ width: 157px; }
+td.bottomright{ width: 147px; }
+td.btmcenter{ height: 31px; background: url(images/bt_c.jpg) repeat; }
+td.btmcentertop{ height: 25px; background: url(images/bc_t.jpg) repeat; }
+td.copy{ height: 16px; background: url(images/bc_m.jpg) repeat; font-size: 10px; font-weight: bold; color: #FFFFFF; text-align:center; }
+
+hr{
+	background-color: #999999;
+}
+
+a {color: #FFFFFF; text-decoration: none; font-weight: normal; background-color: transparent;}
+a:hover {color: #FFCC00;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #CCCCCC; }
+
+input.formButton {}
+input{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 1px solid #000000;
+	padding: 2px;
+}
+
+.item {border: 0px solid #cccccc;}
+.itemHead {padding: 3px; background-color: #103339; color: #FFFFFF;}
+.itemInfo {text-align: right; padding: 3px;}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #ffffff; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; border: 1px solid #666666;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {color: #FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; border-bottom: 2px solid #666666;}
+
+.outer {border: 0px solid #666666;}
+.head { padding: 5px; font-weight: bold; border-bottom: 1px solid #666666; border-right: 1px solid #666666; }
+.even {padding: 5px; border-right: 1px solid #666666;}
+.odd {padding: 5px; border-right: 1px solid #666666;}
+.foot {padding: 5px; font-weight: bold; border: 1px solid #666666; text-align:center;}
+tr.even td { padding: 5px;}
+tr.odd td { padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}

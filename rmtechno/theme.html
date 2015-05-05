@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="Red México Soft <www.redmexico.com.mx>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="tdupleft"><img src="<{$xoops_imageurl}>images/ul_top.jpg" width="242" height="27"></td>
+    <td align="center" valign="top" class="tdupcenter"><img src="<{$xoops_imageurl}>images/name.jpg" width="170" height="17"></td>
+    <td align="right" class="tdupright"><img src="<{$xoops_imageurl}>images/ur_top.jpg" width="235" height="27"></td>
+  </tr>
+  <tr>
+    <td><img src="<{$xoops_imageurl}>/images/ul_mid.jpg" width="242" height="31"></td>
+    <td align="center" class="tdlogoup"><img src="<{$xoops_imageurl}>/images/uc_mid.jpg" width="191" height="31"></td>
+    <td align="right"><img src="<{$xoops_imageurl}>/images/ur_mid.jpg" width="235" height="31"></td>
+  </tr>
+  <tr>
+    <td><img src="<{$xoops_imageurl}>/images/ul_mid1.jpg" width="242" height="25"></td>
+    <td align="center" class="tdlogodown"><img src="<{$xoops_imageurl}>/images/logo.jpg" width="191" height="25"></td>
+    <td><img src="<{$xoops_imageurl}>/images/ur_mid1.jpg" width="235" height="25"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><img src="<{$xoops_imageurl}>/images/uc_mid_d.jpg" width="191" height="18"></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="95%"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" class="left">
+	<{foreach item=block from=$xoops_lblocks}>
+        <{include file="rmtechno/theme_blockleft.html"}>
+    <{/foreach}>	</td>
+    <td class="content"><{$xoops_contents}><br>
+	<{if $xoops_showcblock == 1}>
+       	<{foreach item=block from=$xoops_ccblocks}>
+       		<{include file="rmtechno/theme_blockcenter_c.html"}>
+       	<{/foreach}>
+    <{/if}>
+    <br />
+    <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td id="centerLcolumn" valign="top">
+          <!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}> <{include file="rmtechno/theme_blockcenter_c.html"}> <{/foreach}>
+    <!-- End center-left blocks loop -->
+        </td>
+        <td id="centerRcolumn" valign="top">
+          <!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}> <{include file="rmtechno/theme_blockcenter_c.html"}> <{/foreach}>
+    <!-- End center-right blocks loop -->
+        </td>
+      </tr>
+    </table>	</td>
+    <td class="left">
+	<{foreach item=block from=$xoops_rblocks}>
+        <{include file="rmtechno/theme_blockleft.html"}>
+    <{/foreach}>	</td>
+  </tr>
+</table>
+<table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="<{$xoops_imageurl}>images/bl_t.jpg" width="157" height="25" /></td>
+    <td class="btmcentertop">&nbsp;</td>
+    <td><img src="<{$xoops_imageurl}>images/br_t.jpg" width="147" height="25" /></td>
+  </tr>
+  <tr>
+    <td><img src="<{$xoops_imageurl}>images/bl_m.jpg" width="157" height="16" /></td>
+    <td class="copy">CopyRight &copy; 2005. Red M&eacute;xico Soft. www.redmexico.com.mx </td>
+    <td><img src="<{$xoops_imageurl}>images/br_m.jpg" width="147" height="16" /></td>
+  </tr>
+  <tr>
+    <td width="157" class="bottomleft"><img src="<{$xoops_imageurl}>images/bl_b.jpg" width="157" height="31" /></td>
+    <td class="btmcenter">&nbsp;</td>
+    <td width="147" class="bottomright"><img src="<{$xoops_imageurl}>images/br_b.jpg" width="147" height="31" /></td>
+  </tr>
+</table>
+</body>
+</html>
